@@ -31,6 +31,10 @@
   width: 100vw;
   height: 100vh;
 }
+.app-button{
+  margin: 1%;
+  display: flex;
+}
 
 @keyframes App-logo-spin {
   from {
