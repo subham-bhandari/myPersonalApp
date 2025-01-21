@@ -53,7 +53,7 @@ function App() {
       id: 1,
       title:
         "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      body: "aaaaaa",
+      body: inputValueButton,
     };
     axios
       .put("https://jsonplaceholder.typicode.com/posts/1", payload)
