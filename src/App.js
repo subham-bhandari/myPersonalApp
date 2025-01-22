@@ -13,38 +13,41 @@ function App() {
   const [inputValueButton, setInputValueButton] = useState("");
   const text = (
     <p>
-      Hi Puchku, updating this note! Dekhre ho madam aap? ki aap k liye kya kya
-      kr rha hu mai! Website bna daali..... Hehehehe.... I dont know if you know
-      it but it is a hectic task.....harr component ko code krna fir usse deploy
-      krna globally. {":)"} Ye sb chorro..... farewell mai jyada pyaari ban kr
-      aaoge toh photo bhjna mat bhulna mujhe {">_<"} Pr pr pr ....fr toh ldke
-      bhi tadenge tumhe {"-_-"} Kher chorro.....ye btao iss website mai hmari
-      photo lgadu {"(laughing emoji)"} Just kidding! aap ye btao hostel ki ldkio
-      ko shak kyu hora h itna?? I mean harman tak theek tha pr mehra kyu??? aur
-      arya ko kyu shak hua?{" "}
+      <p>{"[Note updated on 1:00p.m 22 Jan]"}</p>
+      Hi beautiful! Sorry mujhe website pr kaam krne ka time ni mil paa rha h,
+      kyuki aajkl busy hojara hu project mai apne {":( "} But i will work on it
+      soon. Aur btao cutie how is your prep for farewell going on. All set?{" "}
       <p>
-        wese pata mene ye periodic table kyu lgai...taaki laptop pr dekhle agar
-        koi toh shak na ho {"(heheehe clever naaa)"} Agla ab mai bio ki kuch
-        slides lgaunga kal... abhi ninnu aari{" "}
-        {"(Last updated this note on 2 A.M 21 Jan 2025)"}
+        I really want to see this Husn Pari {":P "} Hehe! Snaps bhjna uss din
+        tyaar hoke {"(happy happy happy)"}{" "}
       </p>
       <p>
-        ye button jo dikh rha h usko use krna answer type krne k liye.... note
-        pdh leti ho jab toh tb bhi you can type yes taaki mai note change krdu
-        {
-          "(Abhi still its in development toh send button kaam ni krega abhi :( Sorry! subah figure out krta hu ki data kese send krna h since 2 ghnet se yhi krra hu aur solution mil ni rha [cry emoji]))"
-        }{" "}
-        I have an idea though...I can upload snap in this site but login bnana
-        pdega uske liye... tell me if this idea seems feasible to you. Ek gaana
-        h aapke liye jab bahar aaoge toh gaa kr bhi suna dunga
+        And also ye pyaari si billi h jo aapke paas.... isko bhja kro na mere
+        paas....mujhe khlna h uske sath {"(grinning face)"}
       </p>
       <p>
-        थोड़ी जगह देदे मुझे, तेरे पास कही रह जाऊँ मैं खामोशियाँ तेरी सुनु और दूर
-        कही ना जाऊँ मैं अपनी ख़ुशी  देके मैं तुझे, तेरे दर्द से जुड़ जाऊँ मैं
+        And han shyd mai na nhi hu iss january end mai idhr....but I'll miss
+        you. isiliye apne darshan dete rhena tb tak :P And pdhai pr bhi thora
+        dhyaan dena.... uske baad mai tum pr dhyaan dunga khikhikhi
       </p>
-      मिला जो तू यहाँ मुझे, दिलाऊँ मैं यक़ीन तुझे रहूँ होके तेरा सदा, बस इतना
-      चाहता हूँ मैं थोड़ी जगह देदे मुझे, तेरे पास कही रह जाऊँ मैं खामोशियाँ तेरी
-      सुनु और दूर कही ना जाऊँ मैं
+      <p>
+        Aur han tum puch rhi thi na konse god ko pray krra tumhare liye. Uska
+        answer h....mene puchku devi k liye nariyal foda tha, tbhi toh itni
+        pyaari bandi, hehehe ....lucky to have you though! I do pray ki ham
+        aise hi khush aur sath rhe aur jldi dobara date moment ho{" "}
+        {"[ahh! what a wonderful day it was :) ]"}
+      </p>
+      <p>
+        I love youuuuuuuuuuuuuuuuu puchkuuuuu! You are always there in my
+        thoughts and heart. Byeeeeee
+      </p>
+      Today's Song for you!
+      <p>
+        Oh, main toh Lutt-putt gaya, lutt-putt gaya, main toh gaya Oh, main
+        toh... Pehle sota tha raaton mein, ab jaag-jaag kar Khwaab tere dekhoon,
+        aisa kyun? Main tanha-tanha rehta tha, ab begaanon se bhi poochhun "How
+        do you do, hm?" Aisa kyun?
+      </p>
     </p>
   );
   const handClickButton = () => {
