@@ -13,40 +13,46 @@ function App() {
   const [inputValueButton, setInputValueButton] = useState("");
   const text = (
     <p>
-      <p>{"[Note updated on 1:00p.m 22 Jan]"}</p>
-      Hi beautiful! Sorry mujhe website pr kaam krne ka time ni mil paa rha h,
-      kyuki aajkl busy hojara hu project mai apne {":( "} But i will work on it
-      soon. Aur btao cutie how is your prep for farewell going on. All set?{" "}
+      {" "}
+      <p>{"[Note Updated 30 Jan 2025 2:00 p.m]"}</p>
+      Hi Sweetie! I really hope you are doing good healthwise and in studies
+      too! I'm really sorry ki mai hu nhi ab school mai kuch din cuz bahar jana
+      pda mujhe. But tum apna ache se dhyaan rkhna. Aur btao kessa chlra h sb?
+      Bdhiya. Mere bina toh kya hi {"(hehehe just kidding)"}
       <p>
-        I really want to see this Husn Pari {":P "} Hehe! Snaps bhjna uss din
-        tyaar hoke {"(happy happy happy)"}{" "}
+        Cutie puchku, tumhari bohot yaad aari thi{" :( "} Please jldi se mere
+        paas aao. Waiting for the day till we meet again{" >_< "}
       </p>
       <p>
-        And also ye pyaari si billi h jo aapke paas.... isko bhja kro na mere
-        paas....mujhe khlna h uske sath {"(grinning face)"}
+        pta h mujhe lgta h mene sports room ki key guma di h XD but mai bol nhi
+        skta kisi ko kyuki meri puri glti nhi h!!!! In my defence mene bche ko
+        di thi jab mai shooting krra tha usne ptani kaha rkhi and idk ab kidhr h
+        key {" :) "}. I hope jldi se miljaye aur mujhe call na aaye fr iss
+        regarding XD.
       </p>
       <p>
-        And han shyd mai na nhi hu iss january end mai idhr....but I'll miss
-        you. isiliye apne darshan dete rhena tb tak :P And pdhai pr bhi thora
-        dhyaan dena.... uske baad mai tum pr dhyaan dunga khikhikhi
+        Aap btao, how are your practicals going on ? I hope ache hi jaare honge
+        :p{" "}
       </p>
       <p>
-        Aur han tum puch rhi thi na konse god ko pray krra tumhare liye. Uska
-        answer h....mene puchku devi k liye nariyal foda tha, tbhi toh itni
-        pyaari bandi, hehehe ....lucky to have you though! I do pray ki ham
-        aise hi khush aur sath rhe aur jldi dobara date moment ho{" "}
-        {"[ahh! what a wonderful day it was :) ]"}
-      </p>
-      <p>
-        I love youuuuuuuuuuuuuuuuu puchkuuuuu! You are always there in my
-        thoughts and heart. Byeeeeee
-      </p>
-      Today's Song for you!
-      <p>
-        Oh, main toh Lutt-putt gaya, lutt-putt gaya, main toh gaya Oh, main
-        toh... Pehle sota tha raaton mein, ab jaag-jaag kar Khwaab tere dekhoon,
-        aisa kyun? Main tanha-tanha rehta tha, ab begaanon se bhi poochhun "How
-        do you do, hm?" Aisa kyun?
+        Here's a song for my cutie patootie puchku,{" "}
+        {
+          "[The Most beautiful girl everrrrrrrrrr! <3   (Bohot saari puchiiiii )]"
+        }{" "}
+        <p>
+          <br />
+          Waaqif toh huey tere dil ki baat se Chhupaya jise tune qaaynaat se
+          <br />
+          Waaqif toh huey tere uss khayal se Chhupaya jise tune apne aap se
+          <br />
+          Kahin na kahin teri aankhein, teri baatein padh rahe hain hum Kahin na
+          <br />
+          kahin tere dil mein, dhadkano mein dhal rahe hain hum Tu Har Lamha..
+          <br />
+          tha mujhse juda.. Chaahe door tha main.. yaa paas rahaa
+          <br />
+          Byeeeeeeee! I love youuuu a lottttttttt!{" <3"}
+        </p>
       </p>
     </p>
   );
