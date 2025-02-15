@@ -82,6 +82,80 @@ function App() {
       </p>
     </p>
   );
+
+  const text2 = (
+    <p>
+      {" "}
+      <p>{"[Note Updated 15 Feb 2025]"}</p>
+      <p>
+        Hi cutu! kese ho aap... I really hope ache honge aur apni tabiyat ka
+        dhyaan rakh rhe honge!! Yrr so sorry for not updating notes here!
+        Actually mere company k project mai scene hogya.... kisi mahaan insaan
+        ne project ka code apne personal account mai daal dia....jo ki ek bohot
+        bada violation hota h company norms ka!! Ye baat na mene detail mai
+        vidhi ko btai h taaki wo aapko bata de jld se jld
+      </p>
+      <p>
+        Actually scene ye h ki mai aapke liye ye website apne company k laptop
+        se operate krra tha ab toh i Know ki I m in the clear, but still kuch
+        time k liye meri bhi G fatt gyi thi ki bhai khi ye mail jo aayi h mere
+        liye hi toh nhi...but it's all good and well....
+      </p>
+      <p>
+        Acha dusri chiz wo prachi barthwal wali....actually hua yu ki mai hath
+        dhone andar aya tha aur baith kr paani peera tha abhigyan ki bottle
+        se....uska bhi tbhi ana hua aur saamne baith gyi....eventually wo ye
+        bolri thi ki bete tune party ni bday ki....and mai baat taal rha
+        tha....to be honest esi koi khas baat hoti nhi h hmari face to face bss
+        normal school k baare mai talks...Most importantly I HAVE DIRECTLY
+        DENIED GYM N ALL SATH MAI KRNE K LIYE!!! Na ham milte hain kbhi
+        bahar.....jitni conversation hoti h school mai hi hoti h....toh babu aap
+        ko ye kbhi nhi lagna chiye ki aapko chorke mai kisi dusri ldki k baare
+        mai soch bhi skta hu.... I mean just look at you.....Meri aankho se
+        dekho kbhi khudko....bhai pata chal jaega ki dusri ldkio mai interest
+        hai hi nhi mujhe....IT's Only you know :P {"(I love you <3)"}
+        <p>
+          teesri baat ....bhai mai bata nhi skta mujhe na tumhare bina bohot
+          gndi wali anxiety hori h aajkl.....And I really wanna talk to you
+          ....about a lot of things.....mere din kese jaare sbkuch.....but meri
+          fav mahila toh busy h boards mai {":("} You know what apni ye
+          uneasiness wali feeling control krne k liye toh mai vidhi aur anushka
+          se baatein krta hu aajkl. I really love it jab wo aapkebaare mai btati
+          hain ki din bhar kese gya tumhare sath kya kia ....prachi is all I
+          hear about. Puchna vidhi se XD. I think she might think i'm a pyaar
+          mai pagal insaan jo din bhar prachi... prachi krta rehta h...
+          {"(I'm that pagal insaan though hehehe....I'm crazy for you)"}
+        </p>
+        <p>
+          Babu lastly aap itna overthink mat kroo....kyuki honestly yrr mai bhi
+          same chiz se guzar rha hu...bohot gndi overthinking ho rhi h and idhr
+          udhr se tumhare baare mai kuch sunta fr dimaag khrab alag hota h. So
+          trust me bhyiii I really miss you a lot and I have been behaving
+          myself. KOi female interaction rkha hi nhi h. Jo bhi h wo aapke saamne
+          h. But aapka note pdha na overthinking wala jo aaj bheja it made me
+          really sad. KYuki mai bhi same overthinking se gujar rha hu
+          abhi....I'm Really possesive for you...And I dont wanna loose you{" "}
+          {"(Cry emoji)"}.
+          <p>
+            Apne boards pr achi mehnat krro kyuki mai bohot patiently aapka wait
+            krra hu bahar .... Bohot yaada aati h yrr tumhari....Maa kasam bolu
+            toh this distance between is really eating me up. Toh aap madam kuch
+            aisa mat krna jo meri overthinking ability ko aur bdha de. Hehee i
+            Know you won't I trust you. Aur ho ske toh find an excuse to talk to
+            me in the evening.
+          </p>
+          <p>
+            Happy Valentine's day babe.....Your gift is waiting for you outside{" "}
+            {"(ME) hehehe"}
+            <p>
+              aur ye apni messenger ko bolna ki pehle hi note pkda dia
+              krre...pagal si ....pkdwai kisi din hame
+            </p>
+          </p>
+        </p>
+      </p>
+    </p>
+  );
   const handClickButton = () => {
     const options = {
       method: "POST",
@@ -262,7 +336,7 @@ function App() {
             Send
           </Button>
         </div>
-        {showText ? text : null}
+        {showText ? text2 : inputValue === "27dec" ? text : null}
       </header>
     </div>
   );
