@@ -311,7 +311,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={PT} className="App-backImage" alt="logo" />
-        <p>{showText ? "Scroll Down Now" : "Login"}</p>
+        <p>{showText || inputValue === "27dec"? "Scroll Down Now" : "Login"}</p>
         <input
           type="password"
           placeholder="Type password"
