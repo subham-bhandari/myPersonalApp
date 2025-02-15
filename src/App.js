@@ -151,6 +151,7 @@ function App() {
               aur ye apni messenger ko bolna ki pehle hi note pkda dia
               krre...pagal si ....pkdwai kisi din hame
             </p>
+            <p>Type 27dec to access previous note</p>
           </p>
         </p>
       </p>
